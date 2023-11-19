@@ -1,0 +1,50 @@
+body {
+    background-color: #5A5A5A;
+ }
+
+.pos_cen {
+    position: absolute;
+    width: 75%;
+    Left: 10%;
+    top: 15%;
+    background-color: gray;
+    color: black;
+    padding: 30px;
+    border-style: groove;
+    border-color: #414548;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 1px rgba(10, 10, 10, 0.34);
+ }
+
+.img_deg2 {
+    padding-top: 0%;
+    float: right;
+    width: 35%;
+    height: 100%;
+    border-width: 2px;
+    border-radius: 20px;
+ }
+  
+  .img_deg2:hover {
+    transform: scale(1);
+    transition: all .6s;
+    box-shadow: 5px 5px 1px rgba(10, 10, 10, 0.34);
+  }
+
+  .h1 {
+    position: absolute;
+    width: 80%;
+    height: 12.5%;
+    top: .5%;
+    left: 10%;
+    background-color: gray;
+    color: black;
+    padding: 0px;
+    border-style: groove;
+    border-color: #414548;
+    border-width: 5px;
+    border-radius: 20px;
+    font-family: "consolas";
+    box-shadow: 5px 5px 1px rgba(10, 10, 10, 0.34);
+  }
